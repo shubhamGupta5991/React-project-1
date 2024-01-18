@@ -1,0 +1,145 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,700&display=swap');
+
+:root{
+  --color-primary: #D01C28;
+  --color-second: gray;
+
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1440px;
+  height: 72px;
+  /* border: 1px solid; */
+  margin: 0 auto;
+}
+
+nav div img{
+  width: 76px;
+  height: 42.75px;
+  margin-top: 15px;
+}
+nav ul{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  list-style: none;
+}
+
+nav div button{
+  all: unset;
+  background-color: var(--color-primary);
+  border: 1px solid;
+  height: 24px;
+  padding: 6px 16px;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 40px;
+}
+.shoe{
+  width: 530px;
+  height: 487px;
+  margin-top: 64px;
+
+}
+main .content{
+  width: 595px;
+  height: 613px;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+ gap: 36px;
+}
+.title{
+  height: 306px;
+  font-size: 108px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 48px;
+  line-height: 102px;
+  color: #000000
+}
+.desc{
+  width:404px;
+  height: 91px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 48px;
+  color: var(--color-second);
+}
+
+.shop{
+  display: flex;
+  gap: 40px;
+  /* margin-bottom: 20px; */
+
+}
+
+.shop_now{
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-radius: 2px;
+  padding: 6px 16px;
+  width: 150px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 24px;
+  border: none;
+}
+
+.category{
+  background-color: transparent;
+  color:var(--color-second);
+  border-radius: 2px;
+  padding: 6px 16px;
+  width: 150px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 24px;
+  border: 2px solid;
+}
+.avail{
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: var(--color-second);
+  width: 141px;
+  height: 19px;
+
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.e-image{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+  height: 32px;
+}
+
+.e-image img{
+  width: 32px;
+  height: 32px;
+}
+
