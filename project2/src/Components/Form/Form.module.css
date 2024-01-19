@@ -1,0 +1,51 @@
+
+
+.parent{
+    width: 1000px;
+    height: 70vh;
+    /* border: 1px solid; */
+    margin :0 auto;
+    display: flex;
+    align-items: start;
+    
+}
+.parent form{
+    
+   width: 440px;
+   height: 329px;
+   margin-left: 16px;
+   margin-top: 32px;
+   
+}
+
+
+.parent form input{
+    height: 32px;
+   
+   
+}
+.parent form label{
+    padding: 0 10px;
+    background-color: white;
+    font-weight: 600;
+    margin-left: 8px;
+    margin-top: -12px;
+    position: absolute;
+}
+
+.control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.child_container{
+   margin: 72px 81px 72px 0;  
+}
+
+.contact_icon{
+    width: 508px;
+    height: 488px;
+}

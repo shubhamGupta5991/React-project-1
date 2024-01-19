@@ -1,0 +1,23 @@
+
+
+.container{
+    width: 1260px;
+    height: 10vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container img{
+    height: 72px;
+    width: 72px;
+}
+
+.container ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
